@@ -1,0 +1,58 @@
+/* --- CSS2 : Cascading Style Sheet niveau 2 --------------- */
+/* --- Copyright 2015 par Luc Baron, École Polytechnique --- */
+* {
+  margin : 0;
+  padding : 0;
+}
+img {
+  border : none;
+}
+html {
+  font-size : 100%;
+  background : url(bg.jpg) top center no-repeat #b4c0bc;
+}
+body {
+  font-size : 0.9em;
+  font-family : Arial, Helvetica, sans-serif;
+  background-color : #ffffff;
+  width : 860px;
+  min-height : 800px;
+  margin : 10px auto;
+  padding : 15px 15px 15px 15px;
+  border : #6d7673 solid 1px;
+}
+h3 {
+color : #ff0000;
+}
+div.entete { 
+  color : #fff;
+  background : url(http://www.ressources.polymtl.ca/img3/interface/980px145px_abeille.png) no-repeat #6d7673;
+  background-size : 900px 155px;
+  background-repeat : no-repeat;
+  height : 135px;
+  padding : 10px;
+  border : #6d7673 solid 1px;
+}
+div.entete #logo {
+  float : left;
+}
+div.entete p {
+  font-size : 0.85em;
+}
+div.entete h1 {
+  color : rgb(0%,70%,100%);
+}
+div.entete h2 {
+  color : lightgreen;
+}
+div#menu-top {
+  margin : 35px 0 0 0;
+}
+div#menu-top a {
+  color : orange;
+  padding : 0 10px 0;
+  text-decoration : none;
+}
+div#menu-top a:hover {
+  color : #ffffff;
+}
